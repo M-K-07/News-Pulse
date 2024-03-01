@@ -1,0 +1,7 @@
+body{
+    background-color: #06192c;
+    color: aliceblue;
+}
+*{
+    scroll-behavior: smooth;
+}
