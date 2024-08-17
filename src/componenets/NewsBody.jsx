@@ -60,7 +60,7 @@ const NewsBody = ({ category, pagesize, setprogress }) => {
           return (
             <div
               key={index}
-              className="card bg-dark text-white mb-5 mx-5 d-inline-block"
+              className="card text-white mb-5 mx-5 d-inline-block"
               style={{
                 overflow: "hidden",
                 maxWidth: "345px",

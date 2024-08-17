@@ -1,7 +1,13 @@
 body{
-    background-color: #06192c;
-    color: aliceblue;
+        background-color: rgb(39 39 42);
+        color: aliceblue;
 }
 *{
     scroll-behavior: smooth;
+}
+.card{
+    background-color: rgb(29, 29, 32);
+}
+.navbar{
+    background-color:rgb(29, 29, 32);
 }

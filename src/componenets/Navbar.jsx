@@ -2,7 +2,7 @@
 const Navbar = ({setCategory}) => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <nav className="navbar navbar-expand-lg navbar-dark fixed-top">
         <a
           className="navbar-brand p-2"
           style={{ fontSize: "23px", fontWeight: "bold" }}
@@ -24,7 +24,7 @@ const Navbar = ({setCategory}) => {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto ">
-            <li className="nav-item mx-2" >
+            <li className="nav-item mx-2 " >
               <a className="nav-link" href="/">
                 Home
               </a>
