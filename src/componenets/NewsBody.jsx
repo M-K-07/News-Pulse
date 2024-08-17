@@ -53,7 +53,7 @@ const NewsBody = ({ category, pagesize, setprogress }) => {
         className="text-center "
         style={{ fontSize: "43px", fontWeight: "bold", marginTop: "90px"}}
       >
-        <span style={{ color: "red" }}>{capitalize(category)}</span> Headlines
+        <span style={{ color: "cyan" }}>{capitalize(category)}</span> Headlines
       </h2>
       <div className="m-5 d-flex flex-wrap justify-content-center">
         {NewsData.articles.map((news, index) => {
@@ -64,7 +64,7 @@ const NewsBody = ({ category, pagesize, setprogress }) => {
               style={{
                 overflow: "hidden",
                 maxWidth: "345px",
-                borderRadius: "20px",
+                borderRadius: "10px",
               }}
             >
               <NewsItem
